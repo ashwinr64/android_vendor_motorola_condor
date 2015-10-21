@@ -209,6 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/condor/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/motorola/condor/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+	vendor/motorola/condor/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/motorola/condor/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
