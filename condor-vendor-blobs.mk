@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/motorola/condor/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/condor/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+	vendor/motorola/condor/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     vendor/motorola/condor/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/condor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/condor/proprietary/bin/location-mq:system/bin/location-mq \
