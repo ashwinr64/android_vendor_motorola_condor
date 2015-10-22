@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/condor/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/condor/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/motorola/condor/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/condor/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/condor/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
