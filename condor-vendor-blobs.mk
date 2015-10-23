@@ -74,7 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/condor/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/condor/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/motorola/condor/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/condor/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/condor/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/condor/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/condor/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/motorola/msm8226-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/condor/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
