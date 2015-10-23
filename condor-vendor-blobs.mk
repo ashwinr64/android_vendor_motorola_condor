@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/motorola/condor/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/condor/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/motorola/condor/proprietary/lib/vendor/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/motorola/condor/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/condor/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/condor/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
