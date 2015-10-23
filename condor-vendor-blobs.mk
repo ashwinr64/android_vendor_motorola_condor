@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/condor/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/msm8226-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
