@@ -74,7 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/condor/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/condor/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/motorola/condor/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/condor/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/condor/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/condor/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -84,12 +84,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/condor/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/condor/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/condor/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/condor/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/motorola/condor/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/motorola/condor/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/condor/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
@@ -117,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/condor/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/condor/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-	vendor/motorola/condor/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/motorola/condor/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/condor/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/condor/proprietary/bin/dropboxd:system/bin/dropboxd \
     vendor/motorola/condor/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
@@ -126,9 +127,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/condor/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/condor/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-	vendor/motorola/condor/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/condor/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-	vendor/motorola/condor/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     vendor/motorola/condor/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/condor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/condor/proprietary/bin/location-mq:system/bin/location-mq \
@@ -211,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/motorola/condor/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/motorola/condor/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+	vendor/motorola/condor/proprietary/lib/libsysutils.so:system/lib/libsysutils.so \
     vendor/motorola/condor/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/condor/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
@@ -222,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/motorola/condor/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/condor/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/condor/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/condor/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/condor/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -233,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/condor/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/condor/proprietary/bin/mbm_spy:system/bin/mbm_spy \
-    vendor/motorola/condor/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/condor/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/condor/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/condor/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -255,7 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/condor/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/motorola/condor/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-	vendor/motorola/condor/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/motorola/condor/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/motorola/condor/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/condor/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/condor/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
