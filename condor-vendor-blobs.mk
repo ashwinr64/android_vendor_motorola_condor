@@ -118,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/condor/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
 	vendor/motorola/condor/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/motorola/condor/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/condor/proprietary/bin/dropboxd:system/bin/dropboxd \
     vendor/motorola/condor/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/motorola/condor/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
